@@ -15,7 +15,7 @@ const greeting = {
     "A passionate programmer having good command in Data Structures & Algorithm using Java and Backend Developer 🚀  having an experience of building APIs with Nodejs and some other cool libraries and frameworks. "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Y0pDVZD5Y3FWY0giYe6vV-k3hrGr9IKv/view?usp=sharing",
+    "Pranshu-Pareek-Resume.pdf",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
