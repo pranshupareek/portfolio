@@ -15,7 +15,7 @@ const greeting = {
     "A passionate programmer having good command in Data Structures & Algorithm using Java and Backend Developer 🚀  having an experience of building APIs with Nodejs and some other cool libraries and frameworks. "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Dp0KO1ENfc4D1cT_o_0POhT2zY7V7AwZ/view?usp=sharing",
+    "https://bit.ly/pranshuresume",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
