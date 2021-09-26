@@ -12,7 +12,7 @@ const greeting = {
   username: "Pranshu Pareek",
   title: "Hi all, I'm Pranshu Pareek",
   subTitle: emoji(
-    "A passionate programmer having good command in Data Structures & Algorithm using Java and Backend Developer 🚀  having an experience of building APIs with Nodejs and some other cool libraries and frameworks. "
+    "A passionate programmer having good command in Data Structures & Algorithm using Java."
   ),
   resumeLink:
     "https://bit.ly/pranshuresume",
@@ -35,12 +35,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY PROGRAMER WHO WANTS TO EXPLORE TECH",
+  subTitle: "Software Development Intern at Netmeds.com",
   skills: [
     emoji(
       "⚡ Write efficient & beautiful code"
     ),
-    emoji("⚡ Create APIs using NodeJS, Express and MongoDB"),
+    emoji("⚡ Create APIs using Spring Boot, MySQL, NodeJS, Express and MongoDB"),
     emoji(
       "⚡ Create responsive webpage using Bootstrap"
     )
@@ -106,8 +106,8 @@ const educationInfo = {
       duration: "August 2018 - June 2022",
       desc: "Participated in the hackathons , coding competition and lead the club.",
       descBullets: [
-        "Lead the Google Developer Student Clubs from 2020 to 2021.",
-        "Secured top rank in coding competitions.",
+        "Led the Google Developer Student Clubs from 2020 to 2021.",
+        "Secured top ranks in coding competitions organised by Codechef, Codeforces, Google, Hackerearth and Hackerrank.",
         "Participated in Hackathons like SIH and NIC by MHRD."
       ]
     },
@@ -148,36 +148,42 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      role: "Software Development Intern",
+      company: "Netmeds.com",
+      companylogo: require("./assets/images/netmedsLogo.jpg"),
+      date: "August 2021 – Present",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Working on an end‑to‑end recruitment solution that includes application submission, resume screening and interview platform.",
+        "Also working on a single sign‑on platform for multiple services required by the organization such as Competitor Analysis, Issues Tracking, etc."
       ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
+    ,
+    {
+      role: "Team Lead and Backend Developer",
+      company: "SarvSahayak",
+      companylogo: require("./assets/images/ss.png"),
+      date: "November 2020 – May 2021",
+      desc:
+        "",
+      descBullets: [
+        "Build a team project for users to connect with the nearby NGOs by registering a complaint of a select category by using the MERN stack for the web version and Kotlin+XML for Android.",
+        "Implemented RESTful API server and connected the Frontend with Backend."
+      ]
+    }
+    // ,
+    // {
+    //   role: "Software Engineer Intern",
+    //   company: "Airbnb",
+    //   companylogo: require("./assets/images/airbnbLogo.png"),
+    //   date: "Jan 2015 – Sep 2015",
+    //   desc:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    // }
   ]
 };
 
@@ -231,6 +237,75 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
+    {
+      title: "4 ⭐ Coder ",
+      subtitle:
+        "Secured first rank in the college and 136 Global Rank in Codechef Starter 13 Div 2.",
+      image: require("./assets/images/codechef.png"),
+      footerLink: [
+        {
+          name: "Profile Link",
+          url:
+            "https://www.codechef.com/users/pranshu_pareek"
+        },
+        // {
+        //   name: "Award Letter",
+        //   url:
+        //     "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url:
+        //     "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
+      ]
+    },
+    {
+      title: "Ranked 2 out of 355",
+      subtitle:
+        "Solved 415+ problems with 1396 points on GeeksForGeeks.",
+      image: require("./assets/images/gfg.png"),
+      footerLink: [
+        {
+          name: "Profile Link",
+          url:
+            "https://auth.geeksforgeeks.org/user/pranshupareek/practice/"
+        },
+        // {
+        //   name: "Award Letter",
+        //   url:
+        //     "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url:
+        //     "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
+      ]
+    },
+    {
+      title: "Specialist Coder",
+      subtitle:
+        "Secured 2115 Global Rank out of 12K+ in Educational Codeforces Round 114.",
+      image: require("./assets/images/cf.png"),
+      footerLink: [
+        {
+          name: "Profile Link",
+          url:
+            "http://codeforces.com/profile/pranshupareek"
+        },
+        // {
+        //   name: "Award Letter",
+        //   url:
+        //     "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url:
+        //     "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
+      ]
+    },
     {
       title: "Google DSC Lead",
       subtitle:
