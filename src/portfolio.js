@@ -261,9 +261,9 @@ const achievementSection = {
       ]
     },
     {
-      title: "Ranked 2 out of 355",
+      title: "Ranked 1 out of 362",
       subtitle:
-        "Solved 415+ problems with 1396 points on GeeksForGeeks.",
+        "Solved 430+ problems with 1444 points on GeeksForGeeks.",
       image: require("./assets/images/gfg.png"),
       footerLink: [
         {
