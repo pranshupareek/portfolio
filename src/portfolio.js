@@ -24,7 +24,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/pranshupareek",
   linkedin: "https://www.linkedin.com/in/pranshupareek/",
-  gmail: "pranshupareek47@gmail.com",
+  gmail: "pranshu@pareek.co",
   stackoverflow: "https://stackoverflow.com/users/15402302/pranshu-pareek",
   twitter: "https://twitter.com/pranshupareekk",
   // Instagram and Twitter are also supported in the links!
